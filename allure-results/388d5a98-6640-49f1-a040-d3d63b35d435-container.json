@@ -1,0 +1,1 @@
+{"uuid":"388d5a98-6640-49f1-a040-d3d63b35d435","name":"sircloproject.qa2022.BaseWebTest.setUp","description":"","start":1655999294404,"stop":1655999296042,"children":["368e1f73-9f08-4f82-a202-0b92642c4dde"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1655999294404,"stop":1655999296041}]}
