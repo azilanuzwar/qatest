@@ -8,6 +8,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.client.HttpClient;
+
+import java.io.IOException;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.HttpEntity;
+import org.apache.http.util.EntityUtils;
+
 import sircloproject.qa2022.pages.LoginPage;
 import sircloproject.qa2022.pages.HomePage;
 import sircloproject.qa2022.pages.DataPage;
@@ -50,6 +60,7 @@ public class WebTestAfterPOM extends BaseWebTest{
 		String expectedText = "The password or username is wrong";	    
 	    Assert.assertTrue(actualText.contains(expectedText));	
 	    System.out.println(actualText);
+	    System.out.println();
 	}
 	
 	@Test
@@ -132,9 +143,23 @@ public class WebTestAfterPOM extends BaseWebTest{
 		loginPage.loginWeb(username, password);
 
 		this.driver.get().get("http://qa-interview.srcli.xyz/data");
-		
-		this.driver.get().get("http://qa-interview.srcli.xyz/logout");
+				
+		HttpClient httpClient = HttpClientBuilder.create().build();
+		try {
+			HttpPost request = new HttpPost("http://qa-interview.srcli.xyz/logout");
+			HttpResponse response = httpClient.execute(request);
+			HttpEntity entity = response.getEntity();
+			String responseString = EntityUtils.toString(entity, "UTF-8");
+			System.out.println(responseString);
 			
+			String expectedText = "Temporary Redirect";
+			Assert.assertTrue(responseString.contains(expectedText));
+									
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
 	
