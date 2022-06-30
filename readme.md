@@ -8,4 +8,8 @@ Berikut adalah automation test script dari challange yang dikerjakan:
 
 ## Test
 - BaseWebTest: [src/test/java/sircloproject/qa2022/BaseWebTest.java](./src/test/java/sircloproject/qa2022/BaseWebTest.java)
-- WebTestAfterPOM yang dapat di run as testNG (7 test case pass) [src/test/java/sircloproject/qa2022/WebTestAfterPOM.java](./src/test/java/sircloproject/qa2022/WebTestAfterPOM.java)
+- WebTestAfterPOM yang dapat di run as testNG (7 test case passed) [src/test/java/sircloproject/qa2022/WebTestAfterPOM.java](./src/test/java/sircloproject/qa2022/WebTestAfterPOM.java) maka akan tampak seperti gambar: [java_testng_qatest.jpeg](./java_testng_qatest.jpeg),
+
+atau dapat di test/ Build Now dengan Jenkins pada goals: clean test -DsuiteXmlFile=WebSuite.xml -X 
+
+akan seperti gambar: [Jenkins_qatest_repository.jpeg](./Jenkins_qatest_repository.jpeg)
