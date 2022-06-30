@@ -2,92 +2,92 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-23T21:23:28Z" name="Default suite" finished-at="2022-06-23T21:23:44Z" duration-ms="16361">
+  <suite started-at="2022-06-30T06:25:39Z" name="Default suite" finished-at="2022-06-30T06:26:07Z" duration-ms="28256">
     <groups>
     </groups>
-    <test started-at="2022-06-23T21:23:28Z" name="Default test" finished-at="2022-06-23T21:23:44Z" duration-ms="16361">
+    <test started-at="2022-06-30T06:25:39Z" name="Default test" finished-at="2022-06-30T06:26:07Z" duration-ms="28256">
       <class name="sircloproject.qa2022.WebTestAfterPOM">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:28Z" name="setUp" finished-at="2022-06-23T21:23:29Z" duration-ms="1670" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:39Z" name="setUp" finished-at="2022-06-30T06:25:45Z" duration-ms="6007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testData()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:30Z" name="testData" finished-at="2022-06-23T21:23:31Z" duration-ms="1331" status="PASS">
+        <test-method signature="testData()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:45Z" name="testData" finished-at="2022-06-30T06:25:48Z" duration-ms="2815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:31Z" name="tearDown" finished-at="2022-06-23T21:23:31Z" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:48Z" name="tearDown" finished-at="2022-06-30T06:25:48Z" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:31Z" name="setUp" finished-at="2022-06-23T21:23:32Z" duration-ms="1113" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:48Z" name="setUp" finished-at="2022-06-30T06:25:50Z" duration-ms="1149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFilter()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:32Z" name="testFilter" finished-at="2022-06-23T21:23:33Z" duration-ms="1401" status="PASS">
+        <test-method signature="testFilter()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:50Z" name="testFilter" finished-at="2022-06-30T06:25:52Z" duration-ms="2608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:33Z" name="tearDown" finished-at="2022-06-23T21:23:34Z" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:52Z" name="tearDown" finished-at="2022-06-30T06:25:52Z" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:34Z" name="setUp" finished-at="2022-06-23T21:23:35Z" duration-ms="1030" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:52Z" name="setUp" finished-at="2022-06-30T06:25:53Z" duration-ms="1168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogOut()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:35Z" name="testLogOut" finished-at="2022-06-23T21:23:36Z" duration-ms="1603" status="PASS">
+        <test-method signature="testLogOut()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:53Z" name="testLogOut" finished-at="2022-06-30T06:25:56Z" duration-ms="2334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:36Z" name="tearDown" finished-at="2022-06-23T21:23:36Z" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:56Z" name="tearDown" finished-at="2022-06-30T06:25:56Z" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:36Z" name="setUp" finished-at="2022-06-23T21:23:37Z" duration-ms="981" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:56Z" name="setUp" finished-at="2022-06-30T06:25:57Z" duration-ms="1280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:37Z" name="testLogin" finished-at="2022-06-23T21:23:38Z" duration-ms="945" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:57Z" name="testLogin" finished-at="2022-06-30T06:25:59Z" duration-ms="1744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:38Z" name="tearDown" finished-at="2022-06-23T21:23:38Z" duration-ms="109" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:59Z" name="tearDown" finished-at="2022-06-30T06:25:59Z" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:38Z" name="setUp" finished-at="2022-06-23T21:23:39Z" duration-ms="903" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:25:59Z" name="setUp" finished-at="2022-06-30T06:26:00Z" duration-ms="1378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginInvalidUsernameAndInvalidPassword()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:39Z" name="testLoginInvalidUsernameAndInvalidPassword" finished-at="2022-06-23T21:23:40Z" duration-ms="989" status="PASS">
+        <test-method signature="testLoginInvalidUsernameAndInvalidPassword()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:26:00Z" name="testLoginInvalidUsernameAndInvalidPassword" finished-at="2022-06-30T06:26:02Z" duration-ms="1307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginInvalidUsernameAndInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:40Z" name="tearDown" finished-at="2022-06-23T21:23:40Z" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:26:02Z" name="tearDown" finished-at="2022-06-30T06:26:02Z" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:40Z" name="setUp" finished-at="2022-06-23T21:23:41Z" duration-ms="826" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:26:02Z" name="setUp" finished-at="2022-06-30T06:26:03Z" duration-ms="1177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginInvalidUsernameAndValidPassword()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:41Z" name="testLoginInvalidUsernameAndValidPassword" finished-at="2022-06-23T21:23:42Z" duration-ms="913" status="PASS">
+        <test-method signature="testLoginInvalidUsernameAndValidPassword()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:26:03Z" name="testLoginInvalidUsernameAndValidPassword" finished-at="2022-06-30T06:26:05Z" duration-ms="1692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginInvalidUsernameAndValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:42Z" name="tearDown" finished-at="2022-06-23T21:23:42Z" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:26:05Z" name="tearDown" finished-at="2022-06-30T06:26:05Z" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:42Z" name="setUp" finished-at="2022-06-23T21:23:43Z" duration-ms="868" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:26:05Z" name="setUp" finished-at="2022-06-30T06:26:06Z" duration-ms="1071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginValidUsernameAndInvalidPassword()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:43Z" name="testLoginValidUsernameAndInvalidPassword" finished-at="2022-06-23T21:23:44Z" duration-ms="816" status="PASS">
+        <test-method signature="testLoginValidUsernameAndInvalidPassword()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:26:06Z" name="testLoginValidUsernameAndInvalidPassword" finished-at="2022-06-30T06:26:07Z" duration-ms="1302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginValidUsernameAndInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-23T21:23:44Z" name="tearDown" finished-at="2022-06-23T21:23:44Z" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sircloproject.qa2022.WebTestAfterPOM@66ce957f]" started-at="2022-06-30T06:26:07Z" name="tearDown" finished-at="2022-06-30T06:26:07Z" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
